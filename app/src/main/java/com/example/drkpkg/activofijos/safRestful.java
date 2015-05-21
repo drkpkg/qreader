@@ -5,7 +5,8 @@ import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.loopj.android.http.RequestParams;
 
 public class safRestful {
-    private static final String BASE_URL = "";
+    //http://saf.apphb.com/
+    private static final String BASE_URL = "http://jsonplaceholder.typicode.com";
 
     private static AsyncHttpClient client = new AsyncHttpClient();
 
